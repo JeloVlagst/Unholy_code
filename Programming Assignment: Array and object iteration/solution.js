@@ -24,7 +24,7 @@ function birdCan() {
         console.log(`${props}: ${bird[props]}`)
     }
 }
-
+// Task 3
 function animalCan() {
     for (prop in bird) {
        console.log(`${prop}: ${bird[prop]}`)
@@ -33,5 +33,5 @@ function animalCan() {
 
 birdCan()
 animalCan()
-// Task 3
+
 
